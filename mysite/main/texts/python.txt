@@ -1,0 +1,37 @@
+{% extends "main/header.html" %}
+{% block content %}
+<div class="col s12">
+
+
+
+
+            <div class="card blue-grey darken-1 z-depth-5">
+                <div class="card-content white-text">
+                    <span class="card-title"><h2>{{tut.tutorial_title}}</h2></span>
+                    <p style="font-size: 70%;">{{tut.tutorial_published}}</p>
+                    <p>
+                    
+                    
+                    
+                    {{tut.tutorial_content|safe}}
+                    
+                    
+                    
+                
+                    </p><br>                
+                    <span class="card-title">question</span>
+                </div>
+                <div class="card-action" style="font-size: 120%;width:fit-content;">
+                    <a class="waves-effect waves-light btn-small">1.&nbsp;&nbsp;Option 1</a><br><br>
+                    <a class="waves-effect waves-light btn-small">2.&nbsp;&nbsp;Option 2</a><br><br>
+                    <a class="waves-effect waves-light btn-small">3.&nbsp;&nbsp;Option 3</a><br><br>
+                    <a class="waves-effect waves-light btn-small">4.&nbsp;&nbsp;Option 4</a><br><br>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+{% endblock %}

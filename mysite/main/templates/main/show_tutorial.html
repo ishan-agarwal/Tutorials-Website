@@ -1,0 +1,35 @@
+{% extends "main/header.html" %}
+{% block content %}
+<div class="row">
+    {% for tut in tutorials %}
+    {% if slug == tut.tutorial_title %}
+    <div class="col s12">
+        <div class="card blue-grey darken-1 z-depth-5">
+            <div href="#" class="card-content white-text">
+                <center>
+                    <h3>{{tut.tutorial_title}}</h3>
+                </center>
+                <h4>{{tut.tutorial_content | safe}}<h4>
+            </div>
+            {% for ques in questions %}
+            {% if ques.tutorial_it_belongs_to_id == tut.id %}
+            <div class="card-content white-text">
+                <h4>{{ ques.question }}</h4>
+                <a class="waves-effect waves-light btn"
+                    onclick="mark(this,1,{{ ques.correct_option }})">{{ ques.option_1 }}</a><br><br>
+                <a class="waves-effect waves-light btn"
+                    onclick="mark(this,2,{{ ques.correct_option }})">{{ ques.option_2 }}</a><br><br>
+                <a class="waves-effect waves-light btn"
+                    onclick="mark(this,3,{{ ques.correct_option }})">{{ ques.option_3 }}</a><br><br>
+                <a class="waves-effect waves-light btn"
+                    onclick="mark(this,4,{{ ques.correct_option }})">{{ ques.option_4 }}</a>
+            </div>
+            {% endif %}
+            {% endfor %}
+
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
+{% endblock %}

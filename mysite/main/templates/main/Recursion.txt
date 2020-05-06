@@ -1,0 +1,73 @@
+{% extends "main/header.html" %}
+{% block content %}
+        <div class="col s12">
+                <div class="card blue-grey darken-1 z-depth-5">
+                        <div class="card-content white-text">
+
+                                <h2>Recursion</h2>
+                                <h4>Definition</h4>
+                                <h5 class = "content" >Content     
+Recursion in computer science is a method of solving a problem where the solution depends on solutions to smaller instances of the same problem.
+Eg. f(x)= f(x-2) + 4
+Here we can see that in order to find f(x), we need to find f(x-2). Now if we substitute x as x-2 in the above equation (to find f(x-2)), we get:
+f(x-2)=f(x-2 - 2) +4	= f(x-4) +4 
+Hence f(x) = ( f(x-4) + 4 ) +4. To be able to find f(x-4), we will need to find f( x-4   -2) = f(x-6)
+( as f(x-4)= f(x-6) +4 ), and so on. 
+This shows us the need for a base case in recursive relations. The base case returns a value without making any subsequent recursive calls.
+For eg, we can fix f(0)=0 and f(1)=3 or so. This would prevent infinite recursion. The base cases are dependent on the problem being solved, i.e, base cases for different recursive problems are different.
+
+
+
+Two main points for recursion:
+1.	Identifying the subproblems: The solution of the problem can be expressed in terms of a solution to a sub problem of the same problem.
+2.	Identifying the base conditions.
+</h5>
+                                <h4>Iteration vs Recursion</h4>
+                                <h5 class = "content" >Disadvantages of Recursive code over iterative code: The recursive program has greater space requirements than iterative program as all functions will remain in the stack until the base case is reached. It also has greater time requirements because of function calls and returns overhead.
+Advantages of Recursive code over iterative code: Recursion provides a clean and simple way to write code. Some problems are inherently recursive like tree traversals, tower of Hanoi, etc. For such problems, it is preferred to write recursive code .  PS: Have you tried Googling “Recursion”? </h5>
+                                <h4>Application problem</h4>
+                                <h5 class = "content" >Tower of Hanoi is a mathematical puzzle where we have three rods and n disks. The objective of the puzzle is to move the entire stack to another rod, obeying the following simple rules:
+1) Only one disk can be moved at a time.
+2) Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack i.e. a disk can only be moved if it is the uppermost disk on a stack.
+3) No disk may be placed on top of a smaller disk.
+</h5>
+
+<pre class="prettyprint">
+int search(int arr[], int n, int x) {
+	int i;
+	for(i = 0; i < n; i++) {
+		if(arr[i] == x) {
+			return i;
+		}
+	}
+return – 1;
+}
+</pre>
+                                
+                        </div>
+                </div>
+        </div><br>
+
+
+        <div class="col s12">
+                <div class="card blue-grey darken-1 z-depth-5">
+                        <div class="card-content white-text">
+                                <span id = "ques" class="card-title">Which of the following is true?</span>
+                                <a class="waves-effect waves-light btn-small" onclick = "right(this)"  >Recursion and iteration are the same</a><br><br>
+                                <a class="waves-effect waves-light btn-small" onclick = "wrong(this)" >Recursive calls take additional space</a><br><br>
+                                <a class="waves-effect waves-light btn-small" onclick = "wrong(this)" >Any problem can be solved recursively</a><br><br>
+                                <a class="waves-effect waves-light btn-small" onclick = "wrong(this)" >All of the above</a><br><br>
+
+                                <span id = "ques" class="card-title">How many moves are needed to solve the Tower of Hanoi puzzle,given 5 disks? </span>
+                                <a class="waves-effect waves-light btn-small" >7</a><br><br>
+                                <a class="waves-effect waves-light btn-small">31</a><br><br>
+                                <a class="waves-effect waves-light btn-small">9</a><br><br>
+                                <a class="waves-effect waves-light btn-small">15</a><br><br>
+                        </div>
+                </div>
+        </div><br>
+
+
+                
+{% endblock %}
+

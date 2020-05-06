@@ -1,0 +1,190 @@
+<!--starting of file-->
+{% extends "main/header.html" %}
+{% block content %}
+
+
+
+<!--ending of file-->
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--starting of a block-->
+<div class="col s12">
+    <div class="card blue-grey darken-1 z-depth-5">
+        <div class="card-content white-text">
+
+
+
+
+<!--ending of a block-->
+        </div>
+    </div>
+</div><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--starting of heading-->    
+        <h3>        
+
+               
+<!--ending of heading-->        
+        </h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--starting of sub heading-->
+        <h4>
+        
+        
+        
+<!--ending of sub heading-->         
+        </h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--starting of content-->
+        <h5>
+
+<!--ending of content-->
+        </h5>        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--starting of question-->
+ <span id = "ques" class="card-title ques">
+ 
+
+    
+<!--ending of question-->
+    </span>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--starting of Option 1 -->
+<a id = "opt1" class="waves-effect waves-light btn-small">
+
+
+
+<!--ending of Option 1 -->
+</a><br><br>
+
+
+
+
+
+
+<!--starting of Option 2 -->
+<a id = "opt2" class="waves-effect waves-light btn-small">
+
+
+
+<!--ending of Option 2 -->
+</a><br><br>
+
+
+
+
+
+
+<!--starting of Option 3 -->
+<a id = "opt3" class="waves-effect waves-light btn-small">
+
+
+<!--ending of Option 3 -->
+</a><br><br>
+
+
+
+
+
+
+<!--starting of Option 4 -->
+<a id = "opt4" class="waves-effect waves-light btn-small">
+
+
+<!--ending of Option 4 -->
+</a><br><br>
+
+
+
+
+<!--starting of Code -->
+<pre class="prettyprint">
+
+<!--endingof code-->
+</pre>

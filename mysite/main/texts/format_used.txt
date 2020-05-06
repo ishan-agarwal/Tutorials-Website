@@ -1,0 +1,55 @@
+{% extends "main/header.html" %}
+{% block content %}
+        <div class="col s12">
+                <div class="card blue-grey darken-1 z-depth-5">
+                        <div class="card-content white-text">
+
+                                <h2>Heading</h2>
+                                <h4>Sub-Heading</h4>
+                                <h5>Content     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
+                                <h4>Sub-Heading</h4>
+                                <h5>Content     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
+                                <h4>Sub-Heading</h4>
+                                <h5>Content     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
+                                <h4>Sub-Heading</h4>
+                                <h5>Content     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
+                                
+                        </div>
+                </div>
+        </div><br>
+
+
+        <div class="col s12">
+                <div class="card blue-grey darken-1 z-depth-5">
+                        <div class="card-content white-text">
+                                <span id = "ques" class="card-title">question</span>
+                                <a id = "opt1" class="waves-effect waves-light btn-small">Opt1</a><br><br>
+                                <a id = "opt2" class="waves-effect waves-light btn-small">Opt2</a><br><br>
+                                <a id = "opt3" class="waves-effect waves-light btn-small">Opt3</a><br><br>
+                                <a id = "opt1" class="waves-effect waves-light btn-small">Opt4</a><br><br>
+                                <span id = "ques" class="card-title">question</span>
+                                <a id = "opt1" class="waves-effect waves-light btn-small">Opt1</a><br><br>
+                                <a id = "opt2" class="waves-effect waves-light btn-small">Opt2</a><br><br>
+                                <a id = "opt3" class="waves-effect waves-light btn-small">Opt3</a><br><br>
+                                <a id = "opt1" class="waves-effect waves-light btn-small">Opt4</a><br><br>
+
+                                <span id = "ques" class="card-title">question</span>
+                                <a id = "opt1" class="waves-effect waves-light btn-small">Opt1</a><br><br>
+                                <a id = "opt2" class="waves-effect waves-light btn-small">Opt2</a><br><br>
+                                <a id = "opt3" class="waves-effect waves-light btn-small">Opt3</a><br><br>
+                                <a id = "opt1" class="waves-effect waves-light btn-small">Opt4</a><br><br>
+
+                                <span id = "ques" class="card-title">question</span>
+                                <a id = "opt1" class="waves-effect waves-light btn-small">Opt1</a><br><br>
+                                <a id = "opt2" class="waves-effect waves-light btn-small">Opt2</a><br><br>
+                                <a id = "opt3" class="waves-effect waves-light btn-small">Opt3</a><br><br>
+                                <a id = "opt1" class="waves-effect waves-light btn-small">Opt4</a><br><br>
+
+                        </div>
+                </div>
+        </div><br>
+
+
+                
+{% endblock %}
+
